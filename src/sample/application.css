@@ -1,0 +1,15 @@
+/*zmienione kolory czcionek i hover*/
+.button{
+    -fx-focus-color: transparent;
+    -fx-background-insets: -1, 0, 1, 1;
+    -fx-font-weight: bold;
+    -fx-font-size: 36;
+    -fx-text-fill: #4287f5;
+}
+.button:hover{
+    -fx-cursor:hand;
+}
+.winning-button {
+    -fx-background-color: radial-gradient( radius 100%, white, lightyellow, lawngreen);
+    -fx-text-fill: #f54242;
+}
